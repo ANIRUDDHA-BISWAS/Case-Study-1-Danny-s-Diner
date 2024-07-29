@@ -1,5 +1,8 @@
 # Case Study #1 - Danny's Diner 
-Case Study #1 - Danny's Diner 
+-- Prepared By Aniruddha Biswas 
+
+[<img src="https://github.com/user-attachments/assets/17f4e5f1-3600-46c2-b17e-c8df7b82d82d" alt="LinkedIn" width="65" height="65">](https://www.linkedin.com/in/aniruddha-biswas/)
+
 
 ## Case Study Questions
 ### 1. What is the total amount each customer spent at the restaurant?
@@ -18,15 +21,18 @@ Case Study #1 - Danny's Diner
 ### 11. Join All The Things: 
 The following questions are related creating basic data tables that Danny 
 and his team can use to quickly derive insights without needing to join the underlying tables using SQL.
-Recreate the following table output using the available data:
-![Screenshot 2024-07-29 190154](https://github.com/user-attachments/assets/8ba407fe-f0a0-42f0-9181-23d770ae1183)
+Recreate the following table output using the available data:  
+![aniruddha1](https://github.com/user-attachments/assets/c5ae97d5-2b72-4fc6-b4b4-7faf8e00eabc)
 
 ### 12. Rank All The Things
 Danny also requires further information about the ranking of customer products, 
 but he purposely does not need the ranking for non-member purchases 
-so he expects null ranking values for the records when customers are not yet part of the loyalty program.
+so he expects null ranking values for the records when customers are not yet part of the loyalty program.  
+![aniruddha2](https://github.com/user-attachments/assets/45f00449-2da4-42a0-a944-b6335916350d)
 
 
-
-
+## Prepared by Aniruddha Biswas  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/c/your-channel)
+[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=web&logoColor=white)](https://www.yourwebsite.com)
 
