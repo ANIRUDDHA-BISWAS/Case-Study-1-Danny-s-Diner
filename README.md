@@ -19,7 +19,7 @@ Case Study #1 - Danny's Diner
 The following questions are related creating basic data tables that Danny 
 and his team can use to quickly derive insights without needing to join the underlying tables using SQL.
 Recreate the following table output using the available data:
-
+![Screenshot 2024-07-29 190154](https://github.com/user-attachments/assets/8ba407fe-f0a0-42f0-9181-23d770ae1183)
 
 ### 12. Rank All The Things
 Danny also requires further information about the ranking of customer products, 
