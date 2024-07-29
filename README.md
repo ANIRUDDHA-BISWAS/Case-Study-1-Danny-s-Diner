@@ -1,8 +1,6 @@
 # Case Study #1 - Danny's Diner 
--- Prepared By Aniruddha Biswas 
-
-[<img src="https://github.com/user-attachments/assets/17f4e5f1-3600-46c2-b17e-c8df7b82d82d" alt="LinkedIn" width="65" height="65">](https://www.linkedin.com/in/aniruddha-biswas/)
-
+Prepared By Aniruddha Biswas  
+[<img src="https://github.com/user-attachments/assets/17f4e5f1-3600-46c2-b17e-c8df7b82d82d" alt="LinkedIn" width="70" height="70">](https://www.linkedin.com/in/aniruddha-biswas/)
 
 ## Case Study Questions
 ### 1. What is the total amount each customer spent at the restaurant?
@@ -31,8 +29,5 @@ so he expects null ranking values for the records when customers are not yet par
 ![aniruddha2](https://github.com/user-attachments/assets/45f00449-2da4-42a0-a944-b6335916350d)
 
 
-## Prepared by Aniruddha Biswas  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/c/your-channel)
-[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=web&logoColor=white)](https://www.yourwebsite.com)
+
 
