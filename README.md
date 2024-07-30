@@ -3,6 +3,7 @@
 
 ---
 
+## <p align="center"> Welcome Note
  
 *Welcome to my solution for [Danny's Diner case study #1](https://8weeksqlchallenge.com/case-study-1/), part of the [8 Week SQL Challenge](https://8weeksqlchallenge.com/) hosted by Danny Ma. This project focuses on solving various SQL challenges related to Danny's Diner, a fictional restaurant. Below, you'll find the problem statement, my approach, and the SQL queries used to derive the solutions.*
 
@@ -36,53 +37,67 @@ Danny has shared with you 3 key datasets for this case study:
 
 
 ## <p align="center"> Table 1: sales
-The `sales` table captures all `customer_id` level purchases with an corresponding `order_date` and `product_id` information for when and what menu items were ordered.
 
+The `sales` table captures all `customer_id` level purchases with a corresponding `order_date` and `product_id` information for when and what menu items were ordered.
 
+| customer_id | order_date | product_id |
+|-------------|------------|------------|
+| A           | 2021-01-01 | 1          |
+| A           | 2021-01-01 | 2          |
+| A           | 2021-01-07 | 2          |
+| A           | 2021-01-10 | 3          |
+| A           | 2021-01-11 | 3          |
+| A           | 2021-01-11 | 3          |
+| B           | 2021-01-01 | 2          |
+| B           | 2021-01-02 | 2          |
+| B           | 2021-01-04 | 1          |
+| B           | 2021-01-11 | 1          |
+| B           | 2021-01-16 | 3          |
+| B           | 2021-02-01 | 3          |
+| C           | 2021-01-01 | 3          |
+| C           | 2021-01-01 | 3          |
+| C           | 2021-01-07 | 3          |
 
+## <p align="center">  Table 2: Menu
 
+The `menu` table maps the `product_id` to the actual `product_name` and `price` of each menu item.
 
+| product_id | product_name | price |
+|------------|--------------|-------|
+| 1          | sushi        | 10    |
+| 2          | curry        | 15    |
+| 3          | ramen        | 12    |
 
+## <p align="center"> Table 3: Members
 
+The final `members` table captures the `join_date` when a `customer_id` joined the beta version of the Danny's Diner loyalty program.
 
+| customer_id | join_date   |
+|-------------|-------------|
+| A           | 2021-01-07  |
+| B           | 2021-01-09  |
 
+<br>
 
+### <p align="center"> 📌 *For the data creation script, please refer to the following link:* ➡️ [**Data Creation Script**](https://github.com/ANIRUDDHA-BISWAS/Case-Study-1-Danny-s-Diner/blob/main/1_Danny's%20Diner%20Schema%20Creation.sql)
 
+---
 
+## <p align="center"> Case Study Solution
 
+- [Case Study Questions Solution]()
+- [Bonus Questions Solution]()
 
+---
+## <p align="center"> What Next !
 
+- [Medium Article]()
+- [Detail Explanetion]()
+- [More Topic]()
+- [Case Study #2 - Pizza Runner]()
 
-# Case Study #1 - Danny's Diner 
-Prepared By Aniruddha Biswas  
-[<img src="https://github.com/user-attachments/assets/17f4e5f1-3600-46c2-b17e-c8df7b82d82d" alt="LinkedIn" width="70" height="70">](https://www.linkedin.com/in/aniruddha-biswas/)
+---
 
-## Case Study Questions
-### 1. What is the total amount each customer spent at the restaurant?
-### 2. How many days has each customer visited the restaurant?
-### 3. What was the first item from the menu purchased by each customer?
-### 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
-### 5. Which item was the most popular for each customer?
-### 6. Which item was purchased first by the customer after they became a member?
-### 7. Which item was purchased just before the customer became a member?
-### 8. What is the total items and amount spent for each member before they became a member?
-### 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
-### 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
-
-## Bonus Questions
-
-### 11. Join All The Things: 
-The following questions are related creating basic data tables that Danny 
-and his team can use to quickly derive insights without needing to join the underlying tables using SQL.
-Recreate the following table output using the available data:  
-![aniruddha1](https://github.com/user-attachments/assets/c5ae97d5-2b72-4fc6-b4b4-7faf8e00eabc)
-
-### 12. Rank All The Things
-Danny also requires further information about the ranking of customer products, 
-but he purposely does not need the ranking for non-member purchases 
-so he expects null ranking values for the records when customers are not yet part of the loyalty program.  
-![aniruddha2](https://github.com/user-attachments/assets/45f00449-2da4-42a0-a944-b6335916350d)
-
-
-
-
+### <p align="center"> Thank you so much for your time!  
+#### <p align="center"> If you have any questions or need further assistance, please don't hesitate to reach out.
+### <p align="center"> [<img src="https://github.com/user-attachments/assets/17f4e5f1-3600-46c2-b17e-c8df7b82d82d" alt="LinkedIn" width="70" height="70">](https://www.linkedin.com/in/aniruddha-biswas/)
